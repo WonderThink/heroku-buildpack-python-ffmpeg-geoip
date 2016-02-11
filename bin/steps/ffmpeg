@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Clone the already compiled ffmped binaries from github
-FFMPEG_BINARY="https://github.com/peoplecallmefrancois/ffmpeg-for-heroku.git"
+FFMPEG_BINARY="https://github.com/LearnWithHomer/ffmpeg-for-heroku.git"
 VENDOR_FOLDER="vendor/ffmpeg"
 
 mkdir -p $BUILD_DIR/$VENDOR_FOLDER  &> /dev/null
